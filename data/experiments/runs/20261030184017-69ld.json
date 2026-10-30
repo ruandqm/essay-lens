@@ -1,0 +1,1233 @@
+{
+  "id": "20261030184017-69ld",
+  "name": "Experimento TCC",
+  "createdAt": "2026-10-30T18:40:17.490Z",
+  "finishedAt": "2026-10-30T18:48:51.184Z",
+  "status": "done",
+  "config": {
+    "model": "gemini-3.5-flash-lite",
+    "embeddingModel": "intfloat/multilingual-e5-large",
+    "modes": [
+      "baseline",
+      "rag"
+    ],
+    "repetitions": 1,
+    "essayIds": [
+      "262eda2f",
+      "568370ee",
+      "d2ebd8da",
+      "6707f9f7",
+      "b10c9f11",
+      "c0cd7481",
+      "d3f58baa",
+      "97852b8f",
+      "fa260a2a",
+      "70cdca56"
+    ],
+    "rag": {
+      "topK": 5,
+      "minDenseZ": 1,
+      "bm25MaxRank": 3,
+      "rrfK": 60
+    }
+  },
+  "progress": {
+    "done": 20,
+    "total": 20,
+    "current": null,
+    "waitingUntil": null
+  },
+  "results": [
+    {
+      "essayId": "262eda2f",
+      "mode": "baseline",
+      "repetition": 1,
+      "scores": {
+        "1": 200,
+        "2": 200,
+        "3": 160,
+        "4": 200,
+        "5": 200
+      },
+      "total": 960,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": []
+      },
+      "latencyMs": 7872,
+      "inputTokens": 8322,
+      "outputTokens": 3862,
+      "error": null,
+      "gradingId": "576203d2-f777-4674-a3fe-1459f8a4d275"
+    },
+    {
+      "essayId": "262eda2f",
+      "mode": "rag",
+      "repetition": 1,
+      "scores": {
+        "1": 200,
+        "2": 200,
+        "3": 200,
+        "4": 200,
+        "5": 200
+      },
+      "total": 1000,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [
+          "comp1-c1c921042d",
+          "comp1-60c494469d",
+          "comp1-13477c7b51",
+          "comp1-e4aa27a1d7",
+          "comp1-dc7c51f7db"
+        ],
+        "2": [
+          "comp2-fe8c9350e8",
+          "comp2-334f54c6d2",
+          "comp2-5bd7cfed84",
+          "comp2-b1cea0ff00",
+          "comp2-7f87a8826d"
+        ],
+        "3": [
+          "comp3-d1d7fa1c2f",
+          "comp3-2b77337ea1",
+          "comp3-8c22b7c12e",
+          "comp3-386fa4b87b",
+          "comp3-609a7c8005"
+        ],
+        "4": [
+          "comp4-d7fd569d1a",
+          "comp4-59ad1f0369",
+          "comp4-091a1bc4fd",
+          "comp4-76203dcd86"
+        ],
+        "5": [
+          "comp5-96942a6bec",
+          "comp5-e41eaad4a6",
+          "comp5-41271537b7",
+          "comp5-cadc87f039",
+          "comp5-64e140dc6c"
+        ]
+      },
+      "latencyMs": 13977,
+      "inputTokens": 14509,
+      "outputTokens": 6190,
+      "error": null,
+      "gradingId": "d14fc838-674d-4f01-bdec-1231fd501511",
+      "ragApplied": {
+        "1": [
+          "comp1-c1c921042d",
+          "comp1-60c494469d",
+          "comp1-e4aa27a1d7"
+        ],
+        "2": [
+          "comp2-334f54c6d2",
+          "comp2-5bd7cfed84",
+          "comp2-b1cea0ff00",
+          "comp2-7f87a8826d"
+        ],
+        "3": [
+          "comp3-d1d7fa1c2f",
+          "comp3-2b77337ea1",
+          "comp3-386fa4b87b"
+        ],
+        "4": [
+          "comp4-d7fd569d1a",
+          "comp4-59ad1f0369",
+          "comp4-76203dcd86"
+        ],
+        "5": [
+          "comp5-96942a6bec",
+          "comp5-e41eaad4a6",
+          "comp5-41271537b7",
+          "comp5-64e140dc6c"
+        ]
+      }
+    },
+    {
+      "essayId": "568370ee",
+      "mode": "baseline",
+      "repetition": 1,
+      "scores": {
+        "1": 200,
+        "2": 200,
+        "3": 200,
+        "4": 160,
+        "5": 200
+      },
+      "total": 960,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": []
+      },
+      "latencyMs": 7148,
+      "inputTokens": 8290,
+      "outputTokens": 3409,
+      "error": null,
+      "gradingId": "121d6d5e-caf9-47d1-8d6b-521e12c02bd9"
+    },
+    {
+      "essayId": "568370ee",
+      "mode": "rag",
+      "repetition": 1,
+      "scores": {
+        "1": 200,
+        "2": 200,
+        "3": 200,
+        "4": 120,
+        "5": 200
+      },
+      "total": 920,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [
+          "comp1-b1e01b0d24",
+          "comp1-99585fadb1",
+          "comp1-50ff5f5cf0",
+          "comp1-c1c921042d",
+          "comp1-5f38cb6c6a"
+        ],
+        "2": [
+          "comp2-334f54c6d2",
+          "comp2-b1cea0ff00",
+          "comp2-fe8c9350e8",
+          "comp2-7f87a8826d",
+          "comp2-b2ed89b951"
+        ],
+        "3": [
+          "comp3-d1d7fa1c2f",
+          "comp3-2b77337ea1",
+          "comp3-8c22b7c12e",
+          "comp3-386fa4b87b",
+          "comp3-609a7c8005"
+        ],
+        "4": [
+          "comp4-d7fd569d1a",
+          "comp4-59ad1f0369",
+          "comp4-371568f65d",
+          "comp4-593f82b225",
+          "comp4-891834a253"
+        ],
+        "5": [
+          "comp5-54e21d928d",
+          "comp5-96942a6bec",
+          "comp5-e41eaad4a6",
+          "comp5-41271537b7",
+          "comp5-cadc87f039"
+        ]
+      },
+      "latencyMs": 81528,
+      "inputTokens": 14302,
+      "outputTokens": 5801,
+      "error": null,
+      "gradingId": "a0b668de-ff74-42f4-b7c6-5e6b20ee7601",
+      "ragApplied": {
+        "1": [
+          "comp1-5f38cb6c6a"
+        ],
+        "2": [
+          "comp2-334f54c6d2",
+          "comp2-b1cea0ff00",
+          "comp2-7f87a8826d",
+          "comp2-b2ed89b951"
+        ],
+        "3": [
+          "comp3-d1d7fa1c2f"
+        ],
+        "4": [
+          "comp4-d7fd569d1a",
+          "comp4-59ad1f0369",
+          "comp4-371568f65d",
+          "comp4-593f82b225"
+        ],
+        "5": [
+          "comp5-54e21d928d",
+          "comp5-96942a6bec",
+          "comp5-e41eaad4a6",
+          "comp5-41271537b7"
+        ]
+      }
+    },
+    {
+      "essayId": "d2ebd8da",
+      "mode": "baseline",
+      "repetition": 1,
+      "scores": {
+        "1": 80,
+        "2": 120,
+        "3": 80,
+        "4": 120,
+        "5": 0
+      },
+      "total": 400,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": []
+      },
+      "latencyMs": 7088,
+      "inputTokens": 7061,
+      "outputTokens": 3040,
+      "error": null,
+      "gradingId": "a52641c0-bd5a-4762-ac3c-687064227e47"
+    },
+    {
+      "essayId": "d2ebd8da",
+      "mode": "rag",
+      "repetition": 1,
+      "scores": {
+        "1": 80,
+        "2": 80,
+        "3": 80,
+        "4": 120,
+        "5": 80
+      },
+      "total": 440,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [
+          "comp1-4a0223fc4f",
+          "comp1-60c494469d",
+          "comp1-e4aa27a1d7",
+          "comp1-c1c921042d",
+          "comp1-83dc4a4580"
+        ],
+        "2": [
+          "comp2-334f54c6d2",
+          "comp2-5bd7cfed84",
+          "comp2-fe8c9350e8",
+          "comp2-31c4ada23f",
+          "comp2-6144cb7e32"
+        ],
+        "3": [
+          "comp3-609a7c8005",
+          "comp3-d1d7fa1c2f",
+          "comp3-6cd12f5aba",
+          "comp3-8f1263c13e"
+        ],
+        "4": [
+          "comp4-d7fd569d1a",
+          "comp4-59ad1f0369",
+          "comp4-371568f65d",
+          "comp4-76203dcd86",
+          "comp4-653bc4bf4b"
+        ],
+        "5": [
+          "comp5-5d38d67099",
+          "comp5-96942a6bec",
+          "comp5-e228178360",
+          "comp5-fc62f7fadf",
+          "comp5-8fff7af690"
+        ]
+      },
+      "latencyMs": 15233,
+      "inputTokens": 12891,
+      "outputTokens": 6151,
+      "error": null,
+      "gradingId": "51d34b04-1ce8-4cf6-a64b-6f1dded15a0c",
+      "ragApplied": {
+        "1": [
+          "comp1-60c494469d",
+          "comp1-e4aa27a1d7",
+          "comp1-c1c921042d",
+          "comp1-83dc4a4580"
+        ],
+        "2": [
+          "comp2-31c4ada23f",
+          "comp2-6144cb7e32"
+        ],
+        "3": [
+          "comp3-609a7c8005",
+          "comp3-d1d7fa1c2f",
+          "comp3-8f1263c13e"
+        ],
+        "4": [
+          "comp4-d7fd569d1a",
+          "comp4-59ad1f0369",
+          "comp4-371568f65d",
+          "comp4-76203dcd86",
+          "comp4-653bc4bf4b"
+        ],
+        "5": [
+          "comp5-5d38d67099",
+          "comp5-96942a6bec",
+          "comp5-e228178360",
+          "comp5-8fff7af690"
+        ]
+      }
+    },
+    {
+      "essayId": "6707f9f7",
+      "mode": "baseline",
+      "repetition": 1,
+      "scores": {
+        "1": 160,
+        "2": 200,
+        "3": 160,
+        "4": 160,
+        "5": 160
+      },
+      "total": 840,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": []
+      },
+      "latencyMs": 7250,
+      "inputTokens": 8880,
+      "outputTokens": 4526,
+      "error": null,
+      "gradingId": "ea8246fc-3863-4c1e-9322-49931b4665a1"
+    },
+    {
+      "essayId": "6707f9f7",
+      "mode": "rag",
+      "repetition": 1,
+      "scores": {
+        "1": 160,
+        "2": 200,
+        "3": 160,
+        "4": 160,
+        "5": 200
+      },
+      "total": 880,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [
+          "comp1-99585fadb1",
+          "comp1-c1c921042d",
+          "comp1-6e5e7a8bda",
+          "comp1-60c494469d",
+          "comp1-4a0223fc4f"
+        ],
+        "2": [
+          "comp2-fe8c9350e8",
+          "comp2-334f54c6d2",
+          "comp2-b2ed89b951",
+          "comp2-7f87a8826d",
+          "comp2-b1cea0ff00"
+        ],
+        "3": [
+          "comp3-d1d7fa1c2f",
+          "comp3-8c22b7c12e",
+          "comp3-2b77337ea1",
+          "comp3-386fa4b87b",
+          "comp3-609a7c8005"
+        ],
+        "4": [
+          "comp4-59ad1f0369",
+          "comp4-76203dcd86",
+          "comp4-891834a253",
+          "comp4-d7fd569d1a",
+          "comp4-091a1bc4fd"
+        ],
+        "5": [
+          "comp5-96942a6bec",
+          "comp5-0c96e9a676",
+          "comp5-41271537b7",
+          "comp5-e41eaad4a6",
+          "comp5-64e140dc6c"
+        ]
+      },
+      "latencyMs": 83467,
+      "inputTokens": 14933,
+      "outputTokens": 7156,
+      "error": null,
+      "gradingId": "bc980329-7f4e-456d-a6fe-bca073cef22a",
+      "ragApplied": {
+        "1": [
+          "comp1-6e5e7a8bda",
+          "comp1-60c494469d"
+        ],
+        "2": [
+          "comp2-334f54c6d2",
+          "comp2-b2ed89b951",
+          "comp2-7f87a8826d",
+          "comp2-b1cea0ff00"
+        ],
+        "3": [
+          "comp3-d1d7fa1c2f",
+          "comp3-8c22b7c12e",
+          "comp3-2b77337ea1"
+        ],
+        "4": [
+          "comp4-59ad1f0369",
+          "comp4-76203dcd86",
+          "comp4-891834a253"
+        ],
+        "5": [
+          "comp5-96942a6bec",
+          "comp5-41271537b7",
+          "comp5-e41eaad4a6",
+          "comp5-64e140dc6c"
+        ]
+      }
+    },
+    {
+      "essayId": "b10c9f11",
+      "mode": "baseline",
+      "repetition": 1,
+      "scores": {
+        "1": 160,
+        "2": 200,
+        "3": 200,
+        "4": 160,
+        "5": 200
+      },
+      "total": 920,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": []
+      },
+      "latencyMs": 7950,
+      "inputTokens": 8720,
+      "outputTokens": 4847,
+      "error": null,
+      "gradingId": "69b0150b-a315-4293-9008-e1d0a6837dc1"
+    },
+    {
+      "essayId": "b10c9f11",
+      "mode": "rag",
+      "repetition": 1,
+      "scores": {
+        "1": 160,
+        "2": 200,
+        "3": 160,
+        "4": 160,
+        "5": 200
+      },
+      "total": 880,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [
+          "comp1-c1c921042d",
+          "comp1-b1e01b0d24",
+          "comp1-6e5e7a8bda",
+          "comp1-60c494469d",
+          "comp1-50ff5f5cf0"
+        ],
+        "2": [
+          "comp2-334f54c6d2",
+          "comp2-5bd7cfed84",
+          "comp2-b1cea0ff00",
+          "comp2-7f87a8826d",
+          "comp2-b2ed89b951"
+        ],
+        "3": [
+          "comp3-2b77337ea1",
+          "comp3-d1d7fa1c2f",
+          "comp3-8c22b7c12e",
+          "comp3-386fa4b87b",
+          "comp3-609a7c8005"
+        ],
+        "4": [
+          "comp4-d7fd569d1a",
+          "comp4-59ad1f0369",
+          "comp4-891834a253",
+          "comp4-371568f65d",
+          "comp4-653bc4bf4b"
+        ],
+        "5": [
+          "comp5-96942a6bec",
+          "comp5-0c96e9a676",
+          "comp5-e41eaad4a6",
+          "comp5-41271537b7",
+          "comp5-cadc87f039"
+        ]
+      },
+      "latencyMs": 14865,
+      "inputTokens": 14901,
+      "outputTokens": 6616,
+      "error": null,
+      "gradingId": "7af5aa75-b992-4509-a003-b3cf49440ed7",
+      "ragApplied": {
+        "1": [
+          "comp1-6e5e7a8bda",
+          "comp1-60c494469d"
+        ],
+        "2": [
+          "comp2-334f54c6d2",
+          "comp2-5bd7cfed84",
+          "comp2-b1cea0ff00",
+          "comp2-7f87a8826d",
+          "comp2-b2ed89b951"
+        ],
+        "3": [
+          "comp3-d1d7fa1c2f",
+          "comp3-609a7c8005"
+        ],
+        "4": [
+          "comp4-d7fd569d1a",
+          "comp4-59ad1f0369",
+          "comp4-371568f65d",
+          "comp4-653bc4bf4b"
+        ],
+        "5": [
+          "comp5-96942a6bec",
+          "comp5-0c96e9a676",
+          "comp5-e41eaad4a6",
+          "comp5-41271537b7"
+        ]
+      }
+    },
+    {
+      "essayId": "c0cd7481",
+      "mode": "baseline",
+      "repetition": 1,
+      "scores": {
+        "1": 120,
+        "2": 120,
+        "3": 80,
+        "4": 120,
+        "5": 160
+      },
+      "total": 600,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": []
+      },
+      "latencyMs": 6578,
+      "inputTokens": 7524,
+      "outputTokens": 3160,
+      "error": null,
+      "gradingId": "4b1f8472-f27f-4cc6-af4e-ae8121e0f84e"
+    },
+    {
+      "essayId": "c0cd7481",
+      "mode": "rag",
+      "repetition": 1,
+      "scores": {
+        "1": 120,
+        "2": 120,
+        "3": 120,
+        "4": 120,
+        "5": 160
+      },
+      "total": 640,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [
+          "comp1-83dc4a4580",
+          "comp1-4d05b97085",
+          "comp1-b1e01b0d24",
+          "comp1-4a0223fc4f",
+          "comp1-5f38cb6c6a"
+        ],
+        "2": [
+          "comp2-334f54c6d2",
+          "comp2-a9cf66eaa6",
+          "comp2-c50498b86f",
+          "comp2-b2ed89b951",
+          "comp2-bc12de0d92"
+        ],
+        "3": [
+          "comp3-d1d7fa1c2f",
+          "comp3-609a7c8005",
+          "comp3-6cd12f5aba",
+          "comp3-8f1263c13e",
+          "comp3-2b77337ea1"
+        ],
+        "4": [
+          "comp4-59ad1f0369",
+          "comp4-d7fd569d1a",
+          "comp4-371568f65d",
+          "comp4-653bc4bf4b",
+          "comp4-024e6e20ee"
+        ],
+        "5": [
+          "comp5-5d38d67099",
+          "comp5-0c96e9a676",
+          "comp5-41271537b7",
+          "comp5-8fff7af690",
+          "comp5-4d4d9eb0bc"
+        ]
+      },
+      "latencyMs": 14438,
+      "inputTokens": 12799,
+      "outputTokens": 5759,
+      "error": null,
+      "gradingId": "e197ce0b-a32a-4474-b4b3-bc91b4f043e2",
+      "ragApplied": {
+        "1": [
+          "comp1-83dc4a4580",
+          "comp1-4d05b97085",
+          "comp1-b1e01b0d24",
+          "comp1-5f38cb6c6a"
+        ],
+        "2": [
+          "comp2-c50498b86f"
+        ],
+        "3": [
+          "comp3-d1d7fa1c2f",
+          "comp3-609a7c8005"
+        ],
+        "4": [
+          "comp4-59ad1f0369",
+          "comp4-371568f65d",
+          "comp4-653bc4bf4b"
+        ],
+        "5": [
+          "comp5-5d38d67099",
+          "comp5-0c96e9a676",
+          "comp5-41271537b7",
+          "comp5-8fff7af690"
+        ]
+      }
+    },
+    {
+      "essayId": "d3f58baa",
+      "mode": "baseline",
+      "repetition": 1,
+      "scores": {
+        "1": 160,
+        "2": 120,
+        "3": 80,
+        "4": 120,
+        "5": 120
+      },
+      "total": 600,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": []
+      },
+      "latencyMs": 81978,
+      "inputTokens": 7242,
+      "outputTokens": 3271,
+      "error": null,
+      "gradingId": "124cbbb8-c9cb-4d63-b65e-f84cec798ac6"
+    },
+    {
+      "essayId": "d3f58baa",
+      "mode": "rag",
+      "repetition": 1,
+      "scores": {
+        "1": 160,
+        "2": 160,
+        "3": 120,
+        "4": 120,
+        "5": 120
+      },
+      "total": 680,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [
+          "comp1-b1e01b0d24",
+          "comp1-5f38cb6c6a",
+          "comp1-dc7c51f7db",
+          "comp1-99585fadb1",
+          "comp1-4a0223fc4f"
+        ],
+        "2": [
+          "comp2-8d15ebd2c4",
+          "comp2-7f87a8826d",
+          "comp2-b2ed89b951",
+          "comp2-b1cea0ff00",
+          "comp2-334f54c6d2"
+        ],
+        "3": [
+          "comp3-609a7c8005",
+          "comp3-d1d7fa1c2f",
+          "comp3-6cd12f5aba",
+          "comp3-2b77337ea1",
+          "comp3-37e3ca9423"
+        ],
+        "4": [
+          "comp4-59ad1f0369",
+          "comp4-371568f65d",
+          "comp4-d7fd569d1a",
+          "comp4-091a1bc4fd",
+          "comp4-593f82b225"
+        ],
+        "5": [
+          "comp5-0c96e9a676",
+          "comp5-54e21d928d",
+          "comp5-bf254df40b",
+          "comp5-9495f02364",
+          "comp5-41271537b7"
+        ]
+      },
+      "latencyMs": 14519,
+      "inputTokens": 12834,
+      "outputTokens": 5740,
+      "error": null,
+      "gradingId": "13525f2a-5869-44b4-a5e2-e2220b0bf3f6",
+      "ragApplied": {
+        "1": [
+          "comp1-5f38cb6c6a"
+        ],
+        "2": [
+          "comp2-b2ed89b951",
+          "comp2-b1cea0ff00",
+          "comp2-334f54c6d2"
+        ],
+        "3": [
+          "comp3-d1d7fa1c2f",
+          "comp3-37e3ca9423"
+        ],
+        "4": [
+          "comp4-59ad1f0369",
+          "comp4-371568f65d",
+          "comp4-593f82b225"
+        ],
+        "5": [
+          "comp5-54e21d928d",
+          "comp5-9495f02364",
+          "comp5-41271537b7"
+        ]
+      }
+    },
+    {
+      "essayId": "97852b8f",
+      "mode": "baseline",
+      "repetition": 1,
+      "scores": {
+        "1": 200,
+        "2": 40,
+        "3": 40,
+        "4": 120,
+        "5": 40
+      },
+      "total": 440,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": []
+      },
+      "latencyMs": 8679,
+      "inputTokens": 7895,
+      "outputTokens": 3610,
+      "error": null,
+      "gradingId": "3fb99241-662e-4da1-8609-1ef709321e58"
+    },
+    {
+      "essayId": "97852b8f",
+      "mode": "rag",
+      "repetition": 1,
+      "scores": {
+        "1": 160,
+        "2": 160,
+        "3": 80,
+        "4": 160,
+        "5": 200
+      },
+      "total": 760,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [
+          "comp1-c1c921042d",
+          "comp1-b1e01b0d24",
+          "comp1-4a0223fc4f",
+          "comp1-e53e361dab",
+          "comp1-973f358dba"
+        ],
+        "2": [
+          "comp2-fe8c9350e8",
+          "comp2-334f54c6d2",
+          "comp2-5bd7cfed84",
+          "comp2-b1cea0ff00",
+          "comp2-b2ed89b951"
+        ],
+        "3": [
+          "comp3-d1d7fa1c2f",
+          "comp3-2b77337ea1",
+          "comp3-8c22b7c12e",
+          "comp3-386fa4b87b",
+          "comp3-051e5dc231"
+        ],
+        "4": [
+          "comp4-59ad1f0369",
+          "comp4-d7fd569d1a",
+          "comp4-76203dcd86",
+          "comp4-4993324b90"
+        ],
+        "5": [
+          "comp5-e41eaad4a6",
+          "comp5-54e21d928d",
+          "comp5-0c96e9a676",
+          "comp5-41271537b7",
+          "comp5-5d38d67099"
+        ]
+      },
+      "latencyMs": 16569,
+      "inputTokens": 13692,
+      "outputTokens": 6483,
+      "error": null,
+      "gradingId": "0951c5e1-afa4-40d8-9c89-08d727d18500",
+      "ragApplied": {
+        "1": [
+          "comp1-b1e01b0d24",
+          "comp1-4a0223fc4f"
+        ],
+        "2": [
+          "comp2-334f54c6d2",
+          "comp2-5bd7cfed84",
+          "comp2-b1cea0ff00",
+          "comp2-b2ed89b951"
+        ],
+        "3": [
+          "comp3-d1d7fa1c2f",
+          "comp3-2b77337ea1",
+          "comp3-8c22b7c12e"
+        ],
+        "4": [
+          "comp4-59ad1f0369",
+          "comp4-76203dcd86"
+        ],
+        "5": [
+          "comp5-e41eaad4a6",
+          "comp5-54e21d928d",
+          "comp5-0c96e9a676",
+          "comp5-41271537b7",
+          "comp5-5d38d67099"
+        ]
+      }
+    },
+    {
+      "essayId": "fa260a2a",
+      "mode": "baseline",
+      "repetition": 1,
+      "scores": {
+        "1": 200,
+        "2": 200,
+        "3": 200,
+        "4": 200,
+        "5": 200
+      },
+      "total": 1000,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": []
+      },
+      "latencyMs": 81817,
+      "inputTokens": 8527,
+      "outputTokens": 3692,
+      "error": null,
+      "gradingId": "3304fd77-1628-45aa-9099-1dcafdae79f1"
+    },
+    {
+      "essayId": "fa260a2a",
+      "mode": "rag",
+      "repetition": 1,
+      "scores": {
+        "1": 200,
+        "2": 200,
+        "3": 200,
+        "4": 200,
+        "5": 200
+      },
+      "total": 1000,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [
+          "comp1-c1c921042d",
+          "comp1-b1e01b0d24",
+          "comp1-dc7c51f7db",
+          "comp1-60c494469d",
+          "comp1-99585fadb1"
+        ],
+        "2": [
+          "comp2-fe8c9350e8",
+          "comp2-334f54c6d2",
+          "comp2-b1cea0ff00",
+          "comp2-bc12de0d92",
+          "comp2-5bd7cfed84"
+        ],
+        "3": [
+          "comp3-2b77337ea1",
+          "comp3-8c22b7c12e",
+          "comp3-d1d7fa1c2f",
+          "comp3-386fa4b87b",
+          "comp3-609a7c8005"
+        ],
+        "4": [
+          "comp4-091a1bc4fd",
+          "comp4-d7fd569d1a",
+          "comp4-59ad1f0369",
+          "comp4-76203dcd86"
+        ],
+        "5": [
+          "comp5-96942a6bec",
+          "comp5-e41eaad4a6",
+          "comp5-41271537b7",
+          "comp5-64e140dc6c",
+          "comp5-4d4d9eb0bc"
+        ]
+      },
+      "latencyMs": 18791,
+      "inputTokens": 14308,
+      "outputTokens": 6487,
+      "error": null,
+      "gradingId": "241a2f2e-2e52-45c5-9906-f832eb8b741c",
+      "ragApplied": {
+        "1": [
+          "comp1-60c494469d"
+        ],
+        "2": [
+          "comp2-334f54c6d2",
+          "comp2-b1cea0ff00",
+          "comp2-5bd7cfed84"
+        ],
+        "3": [
+          "comp3-8c22b7c12e",
+          "comp3-d1d7fa1c2f",
+          "comp3-386fa4b87b"
+        ],
+        "4": [
+          "comp4-d7fd569d1a",
+          "comp4-59ad1f0369",
+          "comp4-76203dcd86"
+        ],
+        "5": [
+          "comp5-96942a6bec",
+          "comp5-e41eaad4a6",
+          "comp5-41271537b7",
+          "comp5-64e140dc6c"
+        ]
+      }
+    },
+    {
+      "essayId": "70cdca56",
+      "mode": "baseline",
+      "repetition": 1,
+      "scores": {
+        "1": 200,
+        "2": 200,
+        "3": 200,
+        "4": 200,
+        "5": 200
+      },
+      "total": 1000,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": []
+      },
+      "latencyMs": 7767,
+      "inputTokens": 8948,
+      "outputTokens": 3630,
+      "error": null,
+      "gradingId": "ab0fad35-7818-4867-8ea7-3845b4aa7d78"
+    },
+    {
+      "essayId": "70cdca56",
+      "mode": "rag",
+      "repetition": 1,
+      "scores": {
+        "1": 200,
+        "2": 200,
+        "3": 200,
+        "4": 200,
+        "5": 200
+      },
+      "total": 1000,
+      "annulled": false,
+      "retrievedIds": {
+        "1": [
+          "comp1-c1c921042d",
+          "comp1-50ff5f5cf0",
+          "comp1-b1e01b0d24",
+          "comp1-60c494469d",
+          "comp1-dc7c51f7db"
+        ],
+        "2": [
+          "comp2-1d4d92b661",
+          "comp2-334f54c6d2",
+          "comp2-5bd7cfed84",
+          "comp2-b1cea0ff00",
+          "comp2-b2ed89b951"
+        ],
+        "3": [
+          "comp3-2b77337ea1",
+          "comp3-d1d7fa1c2f",
+          "comp3-8c22b7c12e",
+          "comp3-386fa4b87b",
+          "comp3-8f1263c13e"
+        ],
+        "4": [
+          "comp4-d7fd569d1a",
+          "comp4-59ad1f0369",
+          "comp4-371568f65d",
+          "comp4-091a1bc4fd",
+          "comp4-891834a253"
+        ],
+        "5": [
+          "comp5-0c96e9a676",
+          "comp5-e228178360",
+          "comp5-e41eaad4a6",
+          "comp5-54e21d928d",
+          "comp5-96942a6bec"
+        ]
+      },
+      "latencyMs": 16145,
+      "inputTokens": 15429,
+      "outputTokens": 6136,
+      "error": null,
+      "gradingId": "864b2dd0-2cb2-4faa-b10b-62700a3edb4c",
+      "ragApplied": {
+        "1": [
+          "comp1-60c494469d"
+        ],
+        "2": [
+          "comp2-334f54c6d2",
+          "comp2-5bd7cfed84",
+          "comp2-b1cea0ff00",
+          "comp2-b2ed89b951"
+        ],
+        "3": [
+          "comp3-d1d7fa1c2f",
+          "comp3-8f1263c13e"
+        ],
+        "4": [
+          "comp4-d7fd569d1a",
+          "comp4-59ad1f0369",
+          "comp4-371568f65d"
+        ],
+        "5": [
+          "comp5-0c96e9a676",
+          "comp5-e41eaad4a6",
+          "comp5-54e21d928d",
+          "comp5-96942a6bec"
+        ]
+      }
+    }
+  ],
+  "human": {
+    "262eda2f": {
+      "label": "R01",
+      "scores": {
+        "1": 160,
+        "2": 200,
+        "3": 160,
+        "4": 200,
+        "5": 200
+      }
+    },
+    "568370ee": {
+      "label": "R02",
+      "scores": {
+        "1": 160,
+        "2": 200,
+        "3": 200,
+        "4": 200,
+        "5": 200
+      }
+    },
+    "d2ebd8da": {
+      "label": "R03",
+      "scores": {
+        "1": 140,
+        "2": 120,
+        "3": 100,
+        "4": 120,
+        "5": 80
+      }
+    },
+    "6707f9f7": {
+      "label": "R04",
+      "scores": {
+        "1": 160,
+        "2": 180,
+        "3": 180,
+        "4": 200,
+        "5": 200
+      }
+    },
+    "b10c9f11": {
+      "label": "R05",
+      "scores": {
+        "1": 160,
+        "2": 200,
+        "3": 160,
+        "4": 180,
+        "5": 180
+      }
+    },
+    "c0cd7481": {
+      "label": "R06",
+      "scores": {
+        "1": 140,
+        "2": 160,
+        "3": 120,
+        "4": 120,
+        "5": 140
+      }
+    },
+    "d3f58baa": {
+      "label": "R07",
+      "scores": {
+        "1": 120,
+        "2": 120,
+        "3": 100,
+        "4": 120,
+        "5": 80
+      }
+    },
+    "97852b8f": {
+      "label": "R08",
+      "scores": {
+        "1": 160,
+        "2": 180,
+        "3": 140,
+        "4": 160,
+        "5": 200
+      }
+    },
+    "fa260a2a": {
+      "label": "R09",
+      "scores": {
+        "1": 180,
+        "2": 200,
+        "3": 160,
+        "4": 200,
+        "5": 200
+      }
+    },
+    "70cdca56": {
+      "label": "R10",
+      "scores": {
+        "1": 200,
+        "2": 200,
+        "3": 160,
+        "4": 200,
+        "5": 200
+      }
+    }
+  },
+  "error": null
+}

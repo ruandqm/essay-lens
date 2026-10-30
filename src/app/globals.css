@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-sora), var(--font-inter), ui-sans-serif, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --color-bg: #0b0d14;
+  --color-surface: #121522;
+  --color-surface-2: #181c2c;
+  --color-line: #262b40;
+  --color-line-strong: #353b55;
+  --color-ink: #eef0f7;
+  --color-ink-2: #a9aec4;
+  --color-ink-3: #6f7590;
+  --color-brand: #ff7a45;
+  --color-brand-2: #ff9a6b;
+  --color-ok: #34d399;
+  --color-warn: #fbbf24;
+  --color-bad: #f87171;
+  --color-info: #60a5fa;
+  --color-rag: #818cf8;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.bg-grid {
+  background-image: linear-gradient(180deg, rgb(255 255 255 / 0.02), transparent 420px);
+}
+
+::selection {
+  background: rgb(255 122 69 / 0.35);
+}
+
+/* Barras de rolagem discretas */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line-strong) transparent;
+}
+
+.mark {
+  border-radius: 4px;
+  padding: 1px 2px;
+  cursor: pointer;
+  transition: background 0.15s;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+.mark-erro {
+  background: rgb(248 113 113 / 0.14);
+  text-decoration-color: var(--color-bad);
+}
+.mark-alerta {
+  background: rgb(251 191 36 / 0.12);
+  text-decoration-color: var(--color-warn);
+}
+.mark-destaque {
+  background: rgb(52 211 153 / 0.12);
+  text-decoration-color: var(--color-ok);
+}
+.mark-rag {
+  box-shadow: 0 0 0 1.5px var(--color-rag);
+}
+.mark:hover,
+.mark[data-active="true"] {
+  filter: brightness(1.5);
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: 400px 0;
+  }
+}
+.skeleton {
+  background: linear-gradient(90deg, var(--color-surface-2) 0, #22273b 50%, var(--color-surface-2) 100%);
+  background-size: 800px 100%;
+  animation: shimmer 1.4s infinite linear;
+}
